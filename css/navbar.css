@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;600&display=swap');
+
+body {
+    margin: auto;
+    width: 800px;
+}
+
+#header {
+    text-align: left;
+    font-family: 'Lexend Deca', 'Lucida Console', 'Courier New', sans-serif;
+    font-weight: 600;
+    border-bottom: solid black 2px;
+}
+
+.logo,
+.center-text,
+.navbar {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    margin: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.links {
+    list-style-type: none;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  
+li.link {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 20px;
+    text-decoration: none;
+    margin: auto;
+}
