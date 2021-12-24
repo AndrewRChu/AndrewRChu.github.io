@@ -10,6 +10,7 @@ body {
     font-family: 'Lexend Deca', 'Lucida Console', 'Courier New', sans-serif;
     font-weight: 600;
     border-bottom: solid black 2px;
+    margin-bottom: 20px;
 }
 
 .logo,
