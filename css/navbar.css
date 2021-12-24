@@ -2,28 +2,29 @@
 
 body {
     margin: auto;
-    width: 800px;
+    width: 900px;
+    background-color: #292A34;
+    color: #f6f9f2;
 }
 
 #header {
     text-align: left;
     font-family: 'Lexend Deca', 'Lucida Console', 'Courier New', sans-serif;
     font-weight: 600;
-    border-bottom: solid black 2px;
+    border-bottom: solid #9E3F08 6px;
     margin-bottom: 20px;
 }
 
-.logo,
-.center-text,
+.name {
+    color: #F1740A;
+}
+
+.name,
 .navbar {
     display: inline-block;
     vertical-align: middle;
-}
-
-.logo {
     margin: 8px;
     text-decoration: none;
-    color: black;
 }
 
 .links {
@@ -32,12 +33,11 @@ body {
 
 .navbar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     float: right;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
+    margin: 0px;
   }
   
 li.link {
@@ -46,9 +46,8 @@ li.link {
 
 li a {
     display: block;
-    color: black;
+    color: #f6f9f2;
     text-align: center;
     padding: 0px 20px;
     text-decoration: none;
-    margin: auto;
 }
