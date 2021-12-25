@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;600&family=Miriam+Libre&display=swap');
 
 body {
+    background-color: #292A34;
+    background-image: url(../images/BAUM.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#body {
     margin: auto;
     width: 900px;
-    background-color: #292A34;
     color: #f6f9f2;
-
 }
 
 #header {
