@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <audio id="BEHAVE"><source src="audio/BEHAVE.wav"></audio>
+        <audio id="DONT_FORGET_ME"><source src="audio/DONT_FORGET_ME.wav"></audio>
+        <audio id="THINK_YOU_CAN_TAKE_ME"><source src="audio/THINK_YOU_CAN_TAKE_ME.wav"></audio>
+        <audio id="YA_DONE"><source src="audio/YA_DONE.wav"></audio>
+        <audio id="BEHAVE1"><source src="audio/BEHAVE.wav"></audio>
+        <audio id="DONT_FORGET_ME1"><source src="audio/DONT_FORGET_ME.wav"></audio>
+        <audio id="THINK_YOU_CAN_TAKE_ME1"><source src="audio/THINK_YOU_CAN_TAKE_ME.wav"></audio>
+        <audio id="YA_DONE1"><source src="audio/YA_DONE.wav"></audio>
+        <audio id="BEHAVE2"><source src="audio/BEHAVE.wav"></audio>
+        <audio id="DONT_FORGET_ME2"><source src="audio/DONT_FORGET_ME.wav"></audio>
+        <audio id="THINK_YOU_CAN_TAKE_ME2"><source src="audio/THINK_YOU_CAN_TAKE_ME.wav"></audio>
+        <audio id="YA_DONE2"><source src="audio/YA_DONE.wav"></audio>
+        <audio id="BEHAVE3"><source src="audio/BEHAVE.wav"></audio>
+        <audio id="DONT_FORGET_ME3"><source src="audio/DONT_FORGET_ME.wav"></audio>
+        <audio id="THINK_YOU_CAN_TAKE_ME3"><source src="audio/THINK_YOU_CAN_TAKE_ME.wav"></audio>
+        <audio id="YA_DONE3"><source src="audio/YA_DONE.wav"></audio>
+        <audio id="BEHAVE4"><source src="audio/BEHAVE.wav"></audio>
+        <audio id="DONT_FORGET_ME4"><source src="audio/DONT_FORGET_ME.wav"></audio>
+        <audio id="THINK_YOU_CAN_TAKE_ME4"><source src="audio/THINK_YOU_CAN_TAKE_ME.wav"></audio>
+        <audio id="YA_DONE4"><source src="audio/YA_DONE.wav"></audio>
+        <audio id="BEHAVE5"><source src="audio/BEHAVE.wav"></audio>
+        <audio id="DONT_FORGET_ME5"><source src="audio/DONT_FORGET_ME.wav"></audio>
+        <audio id="THINK_YOU_CAN_TAKE_ME5"><source src="audio/THINK_YOU_CAN_TAKE_ME.wav"></audio>
+        <audio id="YA_DONE5"><source src="audio/YA_DONE.wav"></audio>
+        
+
+        <script>
+            document.addEventListener('keydown', function() {
+                const guys = ['BEHAVE', 'DONT_FORGET_ME', 'THINK_YOU_CAN_TAKE_ME', 'YA_DONE',
+                    'BEHAVE1', 'DONT_FORGET_ME1', 'THINK_YOU_CAN_TAKE_ME1', 'YA_DONE1',
+                    'BEHAVE2', 'DONT_FORGET_ME2', 'THINK_YOU_CAN_TAKE_ME2', 'YA_DONE2',
+                    'BEHAVE3', 'DONT_FORGET_ME3', 'THINK_YOU_CAN_TAKE_ME3', 'YA_DONE3',
+                    'BEHAVE4', 'DONT_FORGET_ME4', 'THINK_YOU_CAN_TAKE_ME4', 'YA_DONE4',
+                    'BEHAVE5', 'DONT_FORGET_ME5', 'THINK_YOU_CAN_TAKE_ME5', 'YA_DONE5'];
+                document.getElementById(guys[Math.floor(Math.random() * 20)]).play();
+            });
+        </script>
+    </body>
+</html>
