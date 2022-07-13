@@ -1,13 +1,18 @@
 @font-face {
-    font-family: 'Genshin Font';
+    font-family: 'Genshin';
     src: url("font.ttf");
 }
 
 body {
     margin: 0px;
     /* margin-top: 50px; */
-    font-family: 'Genshin Font';
+    font-family: 'Genshin';
     font-size: 24px;
+}
+
+#header {
+    margin: 12px;
+    position: fixed
 }
 
 #stickers-display {
