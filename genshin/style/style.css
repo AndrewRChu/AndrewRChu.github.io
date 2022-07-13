@@ -10,9 +10,35 @@ body {
     font-size: 24px;
 }
 
+#background {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-image: url(background.png);
+    background-position: center;
+    opacity: 0.15;
+    z-index: -9999;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #header {
-    margin: 12px;
-    position: fixed
+    margin: 50px;
+    /* position: fixed */
+}
+
+#search-bar {
+    font-family: 'Genshin';
+    font-size: 24px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid black;
 }
 
 #stickers-display {
@@ -28,9 +54,9 @@ body {
     align-items: center;
     padding: 16px;
     margin: 24px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 32px;
-    background-color: rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.075);
 }
 
 .sticker-image {
@@ -38,8 +64,13 @@ body {
     height: 200px;
 }
 
-.sticker-name {
+.sticker-character {
     margin: 0px;
     margin-top: 12px;
-    text-align: center;
+    font-size: 16px;
+}
+
+.sticker-name {
+    margin: 0px;
+    /* margin-top: 12px; */
 }
