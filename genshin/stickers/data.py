@@ -15,9 +15,9 @@ def parse(string):
     }
     return sticker
 
-for directory in sets:
-    for filename in os.listdir(directory):
-        f = os.path.join(directory, filename)
-        stickers.append(parse(f))
+directory = sets[1]
+for filename in os.listdir(directory):
+    f = os.path.join(directory, filename)
+    stickers.append(parse(f))
 
 print(stickers)
