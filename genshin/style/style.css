@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Genshin Font';
+    src: url("font.ttf");
+}
+
+body {
+    margin: 0px;
+    /* margin-top: 50px; */
+    font-family: 'Genshin Font';
+    font-size: 24px;
+}
+
+#stickers-display {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sticker-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin: 24px;
+    border: 2px solid black;
+    border-radius: 32px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.sticker-image {
+    width: 200px;
+    height: 200px;
+}
+
+.sticker-name {
+    margin: 0px;
+    margin-top: 12px;
+    text-align: center;
+}
